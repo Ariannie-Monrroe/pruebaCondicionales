@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba JavaScript</title>
+    <link rel="stylesheet" href="./assetes/css/style.css">
+</head>
+
+<body>
+    <!-- EJERCICIO UNO -->
+    <section>
+        <div class="imgParteUno">
+            <img src="./assetes/img/gato1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- EJERCICIO DOS -->
+    <section class="ejercicioDos">
+        <h2>Selecciona tus stickers</h2>
+        <div id="stickers">
+            <div class="stickers-row">
+                <img src="./assetes/img/gato2.jpg" alt="">
+                <img src="./assetes/img/gato3.jpg" alt="">
+                <img src="./assetes/img/gato4.jpg" alt="">
+            </div>
+
+            <div class="stickers-row">
+                <input type="number" id="sticker1" placeholder="Sticker 1">
+                <input type="number" id="sticker2" placeholder="Sticker 2">
+                <input type="number" id="sticker3" placeholder="Sticker 3">
+            </div>
+        </div>
+
+        <button id="calcular">Calcular</button>
+        <p id="resultado1"></p>
+    </section>
+
+
+        <!-- EJERCICIO TRES -->
+        <section>
+            <h2>Verificar contraseña</h2>
+            <div class="passwordContainer">
+                <select class="digito" id="digit1">
+                    <option value="0" selected disabled>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="digito" id="digit2">
+                    <option value="0" selected disabled>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="digito" id="digit3">
+                    <option value="0" selected disabled>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button id="btnPassword">Ingresar</button>
+            <p id="resultado"></p>
+        </section>
+        <script src="./assetes/js/script.js"></script>
+</body>
+
+</html>
